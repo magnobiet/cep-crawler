@@ -55,8 +55,8 @@ class Cep {
 
                     $this->_output['cep']   = strip_tags($data[1]);
 
-                    $this->_output['state'] = $address[0];
-                    $this->_output['city']  = $address[1];
+                    $this->_output['city']  = $address[0];
+                    $this->_output['state'] = $address[1];
 
                     break;
 
