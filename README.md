@@ -23,8 +23,8 @@
 {
 	"status": 200,
 	"cep": "93890-000",
-	"state": "Nova Hartz",
-	"city": "RS",
+	"state": "RS",
+	"city": "Nova Hartz",
 	"neighborhood": null,
 	"address": null
 }
