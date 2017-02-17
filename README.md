@@ -2,7 +2,28 @@
 
 ## TL;DR
 
-### Sample
+Numbers for test: `90441970`, `91910170`, `90570000`, `90460210`, `93890000`, `93800000`
+
+### Request
+
+```javascript
+var data = null,
+	xhr = new XMLHttpRequest();
+
+xhr.addEventListener('readystatechange', function() {
+
+	if (this.readyState === 4) {
+		console.log(this.responseText);
+	}
+	
+});
+
+xhr.open('GET', 'http://localhost:8000/90441970');
+
+xhr.send(data);
+```
+
+### Response
 
 #### Full
 
