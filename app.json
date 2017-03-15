@@ -1,0 +1,13 @@
+{
+    "name": "CEP Crawler",
+    "description": "Crawler para consulta de CEP no site dos Correios",
+    "repository": "https://github.com/magnobiet/cep-crawler",
+    "logo": "https://raw.githubusercontent.com/magnobiet/cep-crawler/master/logo.svg",
+    "env": {
+        "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php"
+    },
+    "keywords": [
+        "cep",
+        "correios"
+    ]
+}
